@@ -1,5 +1,4 @@
 # MQTT Client Python Example
----
 
 MQTT Python example code to connect to MCS via mqtt protocol.
 
