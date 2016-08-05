@@ -8,13 +8,13 @@ Please follows the [MCS tutorial](https://mcs.mediatek.com/resources/latest/tuto
 
 ## Usage
 
-1.Install paho mqtt client.
+### 1.Install paho mqtt client.
 
 ```
 $ pip install paho
 ```
 
-2.Subscribe to a topic
+### 2.Subscribe to a topic
 
 If you want to subscribe a topic, the format should be `mcs/deviceId/deviceKey/dataChnnelId`.
 
@@ -25,7 +25,7 @@ For example,
 ```
 $ python subscribe.py mqtt.mcs.medaitek.com 1883 mcs/xxxxxx/yyyyyyyy/int
 ```
-3.Publish a datapoints
+### 3.Publish a datapoints
 
 The format of the publish arguments are: `host`、`port`、 `topic` and `values`.
 
